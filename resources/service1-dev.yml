@@ -9,3 +9,14 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8000/eureka/
+
+feign:
+  hystrix:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        # 开启所有服务端点权限
+        include: "*"
