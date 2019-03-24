@@ -1,4 +1,4 @@
-key1: 哈哈
+key1: localhost
 
 eureka:
   instance:
