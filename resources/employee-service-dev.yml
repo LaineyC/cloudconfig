@@ -1,4 +1,5 @@
-key1: localhost
+employee-id: 22
+employee-name: 哈哈
 
 feign:
   hystrix:
