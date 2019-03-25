@@ -1,4 +1,4 @@
-key1: localhost
+key2: localhost
 
 feign:
   hystrix:
