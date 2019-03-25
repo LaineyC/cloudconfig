@@ -1,0 +1,12 @@
+key1: localhost
+
+feign:
+  hystrix:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        # 开启所有服务端点权限
+        include: "*"
